@@ -16,3 +16,6 @@ RUN curl -L -o "gradle-${GRADLE_VERSION}-bin.zip" \
   "https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip" && \
  mkdir -p /opt/gradle /usr/local/gradle && \
  unzip -d /opt/gradle gradle-5.4.1-bin.zip
+
+# Specify the default command:
+CMD ["gradle", "run"]
