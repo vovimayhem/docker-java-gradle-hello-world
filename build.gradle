@@ -16,3 +16,7 @@ jar {
     baseName = 'spring-hello'
     version =  '0.1.0'
 }
+
+apply plugin: 'application'
+
+mainClassName = 'hello.HelloWorld'
