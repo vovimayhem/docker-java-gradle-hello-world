@@ -26,6 +26,8 @@ Thumbs.db
 # Ignore IDE's and text editor artifacts:
 *.swp
 
-# If for some reason the container's gradle is not honoring the GRADLE_USER_HOME
-# env variable, it will try to store dependencies on the .gradle directory:
-/.gradle
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
